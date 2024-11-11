@@ -1,0 +1,575 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<style>
+/*
+Template Name:agricultural
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+
+/********************* about_main ****************/
+#about_main{ 
+ background-image: url(../img/32.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ }
+.about_main_3{ 
+ padding-top:150px;
+ padding-bottom:150px;
+ background-color: rgb(31 43 59 / 56%);
+ }
+.about_main_2 ul{ 
+ text-align:right;
+ padding-top:15px;
+ }
+.about_main_2 li{ 
+ display: inline;
+ padding-right: 10px;
+ color: #fff;
+ font-size: 20px;
+ }
+.about_main_2 h2{ 
+ color:#fff;
+ }
+/********************* about_main_end ****************/
+/********************* about ****************/
+#about{ 
+ padding-top:30px;
+ padding-bottom:50px;
+ }
+.about_1{ 
+ text-align:center;
+ }
+.about_1 h3 {
+ padding-bottom: 10px;
+}
+.about_1 h2 {
+ padding-bottom:30px;
+}
+.about_1 h2 a {
+ color: #77b81e;
+}
+.about_3 h3{ 
+ padding-top:10px;
+ color: #77b81e;
+ }
+.about_3 img:hover{ 
+ box-shadow: 0 0 8px 3px black;
+ }
+/********************* about_end ****************/
+/********************* erosion ****************/
+#erosion{ 
+ background-color:#f1f1f1;
+}
+.erosion_3{ 
+ text-align:center;
+ padding:18px;
+ }
+.erosion_3 h3{ 
+ color: #77b81e;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ font-weight: bold;
+ letter-spacing: 2px;
+}
+.erosion_3 p{ 
+ padding-bottom: 20px;
+}
+/********************* erosion_end ****************/
+/********************* product ****************/
+#product{ 
+ padding-top:30px;
+ padding-bottom:50px;
+ }
+.product_1{ 
+ text-align:center;
+ }
+.product_1 h2{ 
+ padding-bottom:60px;
+ }
+.product_1 h2 a{ 
+ color: #77b81e;
+ }
+.product_3 i{ 
+ margin-right: 10px;
+ border: 2px solid #77b81e;
+ background-color: #77b81e;
+ padding: 14px 22px 14px 22px;
+ color:#fff;
+}
+.product_3 p{ 
+ padding-top:20px;
+ padding-bottom:20px;
+}
+.product_3 a{ 
+ color: #77b81e;
+}
+.product_3 h3{ 
+ border-bottom: 1px solid #dad9d9;
+ padding-bottom: 16px;
+ width:78%;
+}
+/********************* product_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+.about_main_3 {
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+#about_main {
+ background-attachment: inherit;
+ text-align: center;
+}
+.about_main_2 ul {
+ text-align: center;
+}
+#about {
+ padding-bottom:0px;
+ text-align: center;
+}
+.about_3{ 
+ padding-bottom:27px;
+}
+#erosion {
+ text-align: center;
+}
+.erosion_3 {
+ margin-bottom: 18px;
+}
+#product {
+ padding-top: 20px;
+ padding-bottom:0px;
+ text-align: center;
+}
+.product_3 i {
+ margin-right:5px;
+ padding: 10px 12px 10px 12px;
+}
+.product_3 h3 {
+ width: 100%;
+}
+.product_1 h2 {
+ padding-bottom: 30px;
+}
+.product_3{ 
+ padding-bottom:50px; 
+}
+}
+
+@media (min-width:470px) and (max-width:767px) { 
+
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.about_main_2 ul {
+ padding-top:8px;
+}
+.erosion_3 h3 {
+ padding-top: 0px;
+ padding-bottom: 3px;
+ letter-spacing: 0px;
+ font-size: 18px;
+}
+.button_1 {
+ font-size: 18px;
+ padding: 10px 18px 10px 18px;
+}
+.erosion_3 p {
+ padding-bottom: 5px;
+ font-size: 15px;
+}
+.product_3 a {
+ font-size: 15px;
+}
+.product_3 p {
+ font-size: 14px;
+}
+} 
+
+ 
+@media (min-width:961px) and (max-width:1200px) {
+.about_main_2 ul {
+ padding-top:8px;
+}
+.erosion_3 h3 {
+ padding-top: 0px;
+ padding-bottom: 3px;
+ letter-spacing: 0px;
+ font-size: 18px;
+}
+.button_1 {
+ font-size: 18px;
+ padding: 10px 18px 10px 18px;
+}
+.erosion_3 p {
+ padding-bottom: 5px;
+ font-size: 15px;
+}
+.product_3 a {
+ font-size: 15px;
+}
+.product_3 p {
+ font-size: 14px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>agricultural</title>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../static/css/global.css" rel="stylesheet">
+	<link href="../static/css/about.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../static/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+   <script src="../staticjs/jquery-2.1.1.min.js"></script>
+    <script src="../staticjs/bootstrap.min.js"></script>
+	
+	
+	 
+
+  </head>
+<body>
+<section id="header_main">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12 space_all">
+	<div class="col-sm-3 space_all">
+	 <div class="header_main_1">
+	  <a href="index.html"><i class="fa fa-tree"></i>CROP YIELD PREDICTION</a>
+	 </div>
+	</div>
+	<div class="col-sm-9 space_all">
+	 <div class="header_main_2 clearfix">
+	  <div class="col-sm-4 space_all">
+	   <div class="header_main_3 clearfix">
+	    <div class="col-sm-2">
+		 <div class="header_main_4">
+		  <i class="fa fa-map-marker"></i>
+		 </div>
+		</div>
+		<div class="col-sm-10">
+		 <div class="header_main_5">
+			<p>1194, shivamoga, <br/>
+				near temple, gandi nagar 577433.</p>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	  <div class="col-sm-4 space_all">
+	   <div class="header_main_3 clearfix">
+	    <div class="col-sm-2">
+		 <div class="header_main_4">
+		  <i class="fa fa-mobile"></i>
+		 </div>
+		</div>
+		<div class="col-sm-10">
+		 <div class="header_main_5">
+			<p>(+91) 9110645105, <br/>
+				<a href="#">sanjaytm@organicfarming.com.</a></p>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	  <div class="col-sm-4 space_all">
+	   <div class="header_main_3 clearfix">
+	    <div class="col-sm-2">
+		 <div class="header_main_4">
+		  <i class="fa fa-clock-o"></i>
+		 </div>
+		</div>
+		<div class="col-sm-10">
+		 <div class="header_main_5">
+			<p> 24/7 <br/>
+				*Weekends working</p>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	 </div>	 
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="header" class="cd-secondary-nav" class="clearfix">
+ <nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dropdown-thumbnail-preview">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><i class="fa fa-tree"></i>AGRICULTURAL</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="dropdown-thumbnail-preview">
+      <ul class="nav navbar-nav">
+		<li class="active"><a href="index">Home</a></li>
+		<li><a href="about">About</a></li>
+	
+		<li><a href="gallery">Gallery</a></li>
+		<li><a href="contact">Contact</a></li>
+		<li><a href="details">Details</a></li>
+		<li><a href="services">Services</a></li>
+		
+		<li><a href="../state_auth">Admin</a></li>
+		<li><a href="../cultivo/user">User</a></li>
+	<!--	<ul class="nav navbar-nav">
+		        	<li class="dropdown dropdown-large">
+				<a href="#" class="hvr-pulse" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+				<ul class="dropdown-menu dropdown-menu-large row">
+                    <div class="col-sm-4">
+                     <div class="header_4">                  
+                       <div class="ih-item square effect14 top_to_bottom"><a href="#">
+                        <div class="img"><img src="{% static 'img/1.jpg' %}" alt="img"></div>
+                        <div class="info">
+                         <h3>Heading here</h3>
+                         <p>dummy text of the printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard dummy  text ever since the when an unknown printer took a galley of type</p>
+                        </div>
+					    </a>
+					   </div>
+                     </div>
+                    </div>				
+					<div class="col-sm-4">
+                     <div class="header_4">                  
+                      <div class="ih-item square effect14 top_to_bottom"><a href="#">
+                        <div class="img"><img src="{% static 'img/21.jpg' %}" alt="img"></div>
+                        <div class="info">
+                         <h3>Heading here</h3>
+                         <p>dummy text of the printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard dummy  text ever since the when an unknown printer took a galley of type</p>
+                        </div>
+					    </a>
+					   </div>
+                     </div>
+                    </div>
+					<div class="col-sm-4">
+                     <div class="header_4">                  
+                      <div class="ih-item square effect14 top_to_bottom"><a href="#">
+                        <div class="img"><img src="{% static 'img/22.jpg' %}" alt="img"></div>
+                        <div class="info">
+                         <h3>Heading here</h3>
+                         <p>dummy text of the printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard dummy  text ever since the when an unknown printer took a galley of type</p>
+                        </div>
+					    </a>
+					   </div>
+                     </div>
+                    </div>
+				</ul>
+			</li>
+           </ul>-->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> 
+</section>
+<section id="about_main">
+ <div class="about_main_3 clearfix">
+  <div class="container">
+  <div class="row">
+   <div class="about_main_1 clearfix">
+    <div class="col-sm-6">
+	 <div class="about_main_2">
+	  <h2>ABOUT</h2>
+	 </div>
+	</div>
+	<div class="col-sm-6">
+	 <div class="about_main_2">
+	  <ul>
+	       <li>Home</li>
+		   <li>!</li>
+		   <li>About</li>
+	  </ul>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+ </div>
+</section>
+<section id="about">
+ <div class="container">
+  <div class="row">
+   <div class="about_1">
+    <h3>Our motto: Live and Let Live!</h3>
+	<h2>Nature <a href="#">Inspires!</a></h2>
+   </div>
+   <div class="about_2 clearfix">
+    <div class="col-sm-4">
+     <div class="about_3">
+      <a href="#"><img src="{% static 'img/img18.jpg' %}" alt="abc" class="img_responsive"></a>
+	  <h3>SUCCULENT TOMATOES</h3>
+	  <p>Red, ripe homegrown tomatoes are the crown jewel in many a vegetable garden. Let this be the year that you can say the same, with luscious fruit grown in your backyard garden, patio or balcony. </p>
+	 <a href="#" class="button_1">Read More</a>
+     </div>
+    </div>
+	<div class="col-sm-4">
+     <div class="about_3">
+      <a href="#"><img src="{% static 'img/img16.jpg' %}" alt="abc" class="img_responsive"></a>
+	  <h3>POULTRY FARMING</h3>
+	  <p>Karnataka state has very congenial atmosphere for growth of poultry industry. The factors responsible for growth include better climate, presence of natural wealth, availability of skilled and unskilled labourers, technical expertise, access to modern technology such as computer software, spreadsheets etc. </p>
+	 <a href="#" class="button_1">Read More</a>
+     </div>
+    </div>
+	<div class="col-sm-4">
+     <div class="about_3">
+      <a href="#"><img src="{% static 'img/img14.jpg' %}" alt="abc" class="img_responsive"></a>
+	  <h3>REARING THE PIGS</h3>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. 
+	     Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+	 <a href="#" class="button_1">Read More</a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="erosion">
+ <div class="erosion_1 clearfix">
+  <div class="col-sm-4 space_all">
+   <div class="erosion_2">
+    <a href="#"><img src="{% static 'img/img16.jpg' %}" alt="abc" class="img_responsive"></a>
+   </div>
+  </div>
+  <div class="col-sm-4 space_all">
+   <div class="erosion_3">
+    <h3>LIVESTOCK FARMING</h3>
+	<p>Organic Farming provides a great opportunity for working as a volunteer for training students to learn all about organic 
+	   agriculture and appreciate organic farming and wholesome living relying on locally available renewable materials.</p>
+	 <a href="#" class="button_1">Read More</a>
+   </div>
+  </div>
+  <div class="col-sm-4 space_all">
+   <div class="erosion_2">
+    <a href="#"><img src="{% static 'img/img19.jpg' %}" alt="abc" class="img_responsive"></a>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="product">
+ <div class="container">
+  <div class="row">
+   <div class="product_1">
+    <h2>Frequently <a href="#">Asked Questions</a></h2>
+   </div>
+   <div class="product_2 clearfix">
+    <div class="col-sm-6 space_all">
+	 <div class="product_3">
+	  <h3><i>A</i><a href="#">Maintain long-term Soil Fertility </a></h3>
+	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.
+	   Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+	   <a href="#" class="button_1">Read More</a>
+	 </div>
+	</div>
+	<div class="col-sm-6 space_all">
+	 <div class="product_3">
+	  <h3><i>B</i><a href="#">Prepare Organic Products </a></h3>
+	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.
+	   Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+	   <a href="#" class="button_1">Read More</a>
+	 </div>
+	</div>   
+	</div>   
+   </div>
+  </div>
+ </div>
+</section>
+<section id="footer">
+ <div class="footer_inner clearfix">
+   <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+    <div class="col-sm-3">
+	 <div class="footer_1">
+	  <h3>AGRICULTURAL</h3>
+	  <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum..Praesent mauris. Fusce nec tellus</p>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_2">
+	  <h3>MAURIS MASSA</h3>
+	  <ul>
+		<li><i class="fa fa-map-marker"></i> KARNATAKA, INDIA</li>
+		<li><i class="fa fa-phone"></i> Phone: (+91) 9110645105,</li>
+		<li><i class="fa fa-envelope"></i> <a href="#">sanjaytm@gmail.com.</a></li>
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_3">
+	  <h3>SEMPER PORTA</h3>
+	  <ul>
+           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+           <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+           <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
+           		   
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_2">
+	  <h3>VESTIBULUM</h3>
+	 </div>
+	 <div class="footer_4">
+	  <p>Enter your email and we’ll send you latest..</p>
+	 </div>
+	 <div class="footer_3">
+	  <p><input type="text" class="form-control" placeholder="Your Email Address"></p>
+	  <a href="#" class="button">SIGN UP</a>
+	 </div>	 
+	</div>
+   </div>
+  </div>
+ </div>
+ </div>
+</section>
+<section id="footer_main" class="clearfix">
+ <div class="col-sm-12">
+   <div class="footer_main_1">
+    <marquee> <p>© 2022 Design by sanjaya tm<a href="https://www.google.com/search?q=techciti+technologies+private+limited+owner+name&rlz=1C1UEAD_enIN993IN993&oq=techciti&aqs=chrome.1.69i57j35i39j46i175i199i512l2j0i512l4j0i10i512j0i512.5138j0j7&sourceid=chrome&ie=UTF-8"> Teach By Techciti Technologies(KASTHURI)</a></p></marquee>
+   </div>
+ </div>
+</section>
+<script>
+$(document).ready(function(){
+	/*****Fixed Menu******/
+	var secondaryNav = $('.cd-secondary-nav'),
+	   secondaryNavTopPosition = secondaryNav.offset().top;
+		$(window).on('scroll', function(){
+			if($(window).scrollTop() > secondaryNavTopPosition ) {
+				secondaryNav.addClass('is-fixed');	
+			} else {
+				secondaryNav.removeClass('is-fixed');
+			}
+		});	
+});
+	</script>
+</body>
+
+	
+	
+	
+	
+

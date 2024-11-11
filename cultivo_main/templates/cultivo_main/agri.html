@@ -1,0 +1,1245 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<style>
+
+
+
+
+/********************* middle ****************/
+#middle{ 
+ padding-top:30px;
+ padding-bottom:30px;
+}
+.middle_1{ 
+ text-align:center;
+}
+.middle_1 h3{ 
+ padding-bottom:10px;
+}
+.middle_1 h2{ 
+ padding-bottom:10px;
+}
+.middle_1 h2 a{ 
+ color: #77b81e;
+}
+.middle_1 p{ 
+ padding-bottom:20px;
+}
+.middle_3 img{ 
+ border: 5px solid #74c307;
+ border-radius: 120px 50px 60px 50px;
+ }
+
+.middle_3 h3{ 
+ text-align:center;
+ padding-bottom:10px;
+ padding-top:13px;
+ }
+.middle_3 p{ 
+ text-align:center;
+ padding-bottom:0px;
+ }
+/********************* middle_end ****************/
+/********************* offers ****************/
+#offers{ 
+ background-color:#77b81e12!important
+ }
+.offers_main{ 
+ text-align:center;
+ padding-top: 110px;
+ padding-bottom: 111px;
+ }
+.offers_4 h2{ 
+ background-color:#cecaca;
+ padding: 10px;
+ }
+.offers_4 p{ 
+ padding-bottom:0px;
+ }
+.offers_2{ 
+ background-color: #fff;
+ padding: 20px;
+ margin:30px;
+ }
+.offers_2 h3{ 
+ padding-bottom:7px;
+ }
+.offers_2 h2 a{ 
+ color: #77b81e;
+ }
+.offers_2 h2{ 
+ padding-bottom:5px;
+ }
+/********************* offers_end ****************/
+/********************* our ****************/
+#our{ 
+ padding-top:30px;
+ padding-bottom:30px;
+}
+.our_2{ 
+ text-align:center;
+ position:relative;
+ box-shadow: 0 0 1px black;
+ padding: 20px 10px 10px 10px;
+}
+.our_2 h3{ 
+ padding-top:80px;
+ padding-bottom:3px;
+ color: #77b81e;
+}
+.our_2 p{ 
+ padding-bottom:0px;
+}
+.our_3 i{ 
+ font-size: 60px;
+ background: #ffffff;
+ color: #060606;
+ width: 150px;
+ height: 150px;
+ line-height: 130px;
+ text-align: center;
+ border: 2px solid #ffffff;
+ border-radius: 50%;
+}
+.our_3{ 
+ position:absolute;
+ top: 37%;
+ left: 30%;
+}
+/********************* our_end ****************/
+/********************* facts ***************/
+#facts{ 
+ padding-top: 30px;
+ padding-bottom: 46px;
+ border-top: 10px solid #77b81e;
+ border-radius: 50px;
+ border-bottom: 10px solid #77b81e;
+ }
+.facts_2{ 
+ text-align:center;
+}
+.facts_2 h3{ 
+ padding-top:12px;
+}
+.facts_2 img{ 
+ border-left: 15px solid #000;
+ border-radius: 60%;
+ border-right: 15px solid #77b81e;
+ }
+.facts_2 ul{ 
+ padding-top:12px;
+ }
+.facts_2 li{ 
+ display:inline;
+ padding-right:10px;
+ color:#999;
+ }
+.date{ 
+ color:#5d9e03!important;
+}
+.facts_3{ 
+ text-align:center;
+ }
+.facts_3 h3{ 
+ padding-bottom:5px;
+ }
+.facts_3 h2{ 
+ padding-bottom:35px;
+ }
+.facts_3 h2 a{ 
+ color: #77b81e;
+ }
+/********************* facts_end ***************/
+/********************* people ****************/
+#people{ 
+ background-color:#f1f1f1;
+ }
+.people_main{ 
+ position:relative;
+ }
+.people_3{ 
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0%;
+ right: 0%;
+ }
+.people_main_1{ 
+ padding-left:40px;
+ padding-top:120px;
+ }
+.people_4 h4{ 
+ padding-bottom:10px;
+ }
+.people_4 h2{ 
+ padding-bottom:10px;
+ }
+.people_4 h2 a{ 
+ color: #77b81e;
+ }
+#people .form-control {
+ font-size: 20px;
+ border: 2px solid #cccccc;
+ color: #707787;
+ background-color: #f1f1f1;
+}
+#people .form-control::placeholder {
+ color: #707787;
+}
+.people_6 input {
+ padding-top: 25px;
+ padding-bottom: 25px;
+ margin-bottom: 10px;
+  width: 90%;
+}
+.people_8 textarea {
+ height: 155px;
+ width: 95%;
+}
+.people_10{ 
+ padding-top:30px;
+ }
+/********************* people_end ****************/
+/********************* place ****************/
+#place{ 
+ background-image: url(../img/19.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+.place_main{ 
+ padding-top:100px;
+ padding-bottom:250px;
+ background-color: #0000009e;
+ }
+.place_1{ 
+ text-align:center;
+ }
+.place_1 h4{ 
+ color:#fff;
+ padding-bottom:10px;
+ }
+.place_1 h2{ 
+ color:#fff;
+ }
+.place_1 p{ 
+ color:#fff;
+ padding-bottom:30px;
+ }
+/********************* place_end ****************/
+/********************* request ****************/
+#request{ 
+ padding-bottom:50px;
+ margin-top:-140px;
+ }
+.request_3{ 
+ text-align: center;
+ background-color: #77b81e;
+ box-shadow: 13px 9px 3px 4px #4d8401;
+ padding: 0px 0px 15px 0px;
+ }
+.request_3 h3{ 
+ padding-top:10px;
+ font-weight:bold;
+ color: #fff;
+ }
+.request_3 p{ 
+ padding:0px;
+ margin:0px;
+ padding-bottom: 10px;
+ padding-top: 5px;
+ color: #ffffff;
+ }
+.request_3 li{ 
+ display:inline;
+ padding-right:10px;
+ }
+.request_3 li a{ 
+ font-size:18px;
+ color:#000;
+ }
+.request_3 li a:hover{ 
+ color:#fff;
+ }
+/********************* request_end ****************/
+/********************* testimonials ****************/
+#testimonials{ 
+ background-color:#f1f1f1;
+ }
+.testimonials_3{ 
+ padding-top:130px;
+ }
+.testimonials_main{ 
+ padding-left:50px;
+ }
+.testimonials_3 h2{ 
+ padding-bottom:10px;
+ }
+.testimonials_3 h2 a{ 
+ color: #77b81e;
+ }
+.testimonials_5 i{ 
+ padding-right:10px;
+ font-size:20px;
+ color: #77b81e;
+ }
+/********************* testimonials_end ****************/
+
+
+
+
+
+@media screen and (max-width : 767px){
+#center .carousel-caption {
+ position: static;
+ width: 100%;
+ padding-bottom:50px;
+}
+#center .kb_caption h1 {
+ padding-top: 50px;
+ font-size:40px;
+}
+#center .kb_wrapper {
+ background: #02eeb3;
+}
+#center .kb_control_right {
+ top: 55%;
+}
+#center .kb_control_left {
+ top: 55%;
+}
+#middle {
+ text-align: center;
+}
+.middle_1 p {
+ padding-bottom:0px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.middle_3 {
+ margin-bottom: 10px;
+}
+.offers_main {
+ padding-top: 20px;
+ padding-bottom: 21px;
+}
+#our {
+ text-align: center;
+}
+.our_3 i {
+ font-size: 48px;
+ width:100px;
+ height:100px;
+ line-height:100px;
+}
+.our_3 {
+ top: 32%;
+ left: 35%;
+}
+#facts {
+ text-align: center;
+}
+.facts_2 {
+ padding-bottom: 25px;
+}
+#people {
+ text-align: center;
+}
+.people_main_1 {
+ padding-left: 0px;
+ padding-top: 30px;
+}
+.people_6 input {
+ width: 90%;
+ margin-left: 15px;
+}
+.people_8 textarea {
+ width: 90%;
+ margin-left: 15px;
+}
+.place_main {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+#request {
+ padding-bottom:10px;
+ margin-top: 30px;
+ text-align: center;
+}
+.request_3 {
+ margin-bottom:25px;
+}
+#testimonials {
+ text-align: center;
+}
+.testimonials_3 {
+ padding-top: 30px;
+}
+.testimonials_main {
+ padding-left: 0px;
+}
+.our_2 {
+ margin-bottom: 10px;
+}
+}
+
+@media (min-width:470px) and (max-width:767px) { 
+
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+#center .kb_caption h1 {
+ padding-top:5px;
+ font-size:30px;
+}
+#center .kb_caption p{ 
+ font-size:13px;
+}
+#center .kb_caption{ 
+ padding-bottom:35px;
+}
+.offers_main {
+ padding-top: 23px;
+ padding-bottom: 24px;
+}
+.offers_2 h2 {
+ font-size: 30px;
+}
+.offers_2 h3 {
+ font-size:20px;
+}
+.offers_4 h2 {
+ font-size: 15px!important;
+}
+.offers_4 p {
+ font-size: 13px;
+}
+.our_3 i {
+ font-size: 40px;
+ width: 100px;
+ height: 100px;
+ line-height: 100px;
+}
+.our_3 {
+ top: 25%;
+}
+.people_main_1 {
+ padding-top: 20px;
+ padding-bottom: 30px;
+}
+.people_4 h2 a {
+ font-size: 30px;
+}
+.people_4 h2 {
+ font-size: 30px;
+}
+#people .form-control {
+ font-size: 15px;
+}
+.people_6 input {
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+.people_8 textarea {
+ height: 80px;
+}
+.people_4 h2 {
+ padding-bottom: 0px;
+}
+.testimonials_3 {
+ padding-top: 20px;
+}
+.testimonials_3 h2 a {
+ font-size: 30px;
+}
+.testimonials_3 h2 {
+ padding-bottom: 2px;
+ font-size: 30px;
+}
+.testimonials_3 p{
+ font-size: 16px;
+ padding-bottom: 0px;
+}
+.testimonials_5 h3{ 
+ font-size: 16px;
+}
+.testimonials_5 p{ 
+ font-size: 14px;
+ padding-bottom: 0px;
+}
+} 
+
+ 
+@media (min-width:961px) and (max-width:1200px) {
+#center .kb_caption h1 {
+ padding-top:5px;
+ font-size:30px;
+}
+#center .kb_caption p{ 
+ font-size:13px;
+}
+#center .kb_caption{ 
+ padding-bottom:35px;
+}
+.offers_main {
+ padding-top: 63px;
+ padding-bottom: 64px;
+}
+.offers_2 h2 {
+ font-size: 30px;
+}
+.offers_2 h3 {
+ font-size:20px;
+}
+.offers_4 h2 {
+ font-size: 15px!important;
+}
+.offers_4 p {
+ font-size: 13px;
+}
+.our_3 i {
+ font-size: 40px;
+ width: 100px;
+ height: 100px;
+ line-height: 100px;
+}
+.our_3 {
+ top: 25%;
+}
+.people_main_1 {
+ padding-top: 20px;
+ padding-bottom: 30px;
+}
+.people_4 h2 a {
+ font-size: 30px;
+}
+.people_4 h2 {
+ font-size: 30px;
+}
+#people .form-control {
+ font-size: 15px;
+}
+.people_6 input {
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+.people_8 textarea {
+ height: 80px;
+}
+.people_4 h2 {
+ padding-bottom: 0px;
+}
+.testimonials_3 {
+ padding-top: 20px;
+}
+.testimonials_3 h2 a {
+ font-size: 30px;
+}
+.testimonials_3 h2 {
+ padding-bottom: 2px;
+ font-size: 30px;
+}
+.testimonials_3 p{
+ font-size: 16px;
+ padding-bottom: 0px;
+}
+.testimonials_5 h3{ 
+ font-size: 16px;
+}
+.testimonials_5 p{ 
+ font-size: 14px;
+ padding-bottom: 0px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+.offers_main {
+ padding-top:70px;
+ padding-bottom:70px;
+}
+}
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crop Yield Prediction</title>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../static/css/global.css" rel="stylesheet">
+	<link href="../static/css/index.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../static/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+	<link href="../static/css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
+	<link type="../agri/static/text/css" rel="stylesheet" href="../static/css/animate.css">
+   <script src="../static/js/jquery-2.1.1.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+	
+	
+	 
+
+  </head>
+<body>
+<section id="header_main">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12 space_all">
+	<div class="col-sm-3 space_all">
+	 <div class="header_main_1">
+	  <a href="index.html"><i class="fa fa-tree"  style="font-size:36px"></i>CROP YIELD PREDICTION</a>
+	 </div>
+	</div>
+	<div class="col-sm-9 space_all">
+	 <div class="header_main_2 clearfix">
+	  <div class="col-sm-4 space_all">
+	   <div class="header_main_3 clearfix">
+	    <div class="col-sm-2">
+		 <div class="header_main_4">
+		  <i class="fa fa-map-marker"></i>
+		 </div>
+		</div>
+		<div class="col-sm-10">
+		 <div class="header_main_5">
+		  <p>1194, shivamoga, <br/>
+             near temple, gandi nagara 577433.</p>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	  <div class="col-sm-4 space_all">
+	   <div class="header_main_3 clearfix">
+	    <div class="col-sm-2">
+		 <div class="header_main_4">
+		  <i class="fa fa-mobile"></i>
+		 </div>
+		</div>
+		<div class="col-sm-10">
+		 <div class="header_main_5">
+		  <p>(+91) 9110645105, <br/>
+             <a href="#">sanjay@organicfarming.com.</a></p>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	  <div class="col-sm-4 space_all">
+	   <div class="header_main_3 clearfix">
+	    <div class="col-sm-2">
+		 <div class="header_main_4">
+		  <i class="fa fa-clock-o"></i>
+		 </div>
+		</div>
+		<div class="col-sm-10">
+		 <div class="header_main_5">
+		  <p> 24/7 <br/>
+             *Weekends working</p>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	 </div>	 
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="header" class="cd-secondary-nav" class="clearfix">
+ <nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dropdown-thumbnail-preview">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><i class="fa fa-tree"></i>AGRICULTURAL</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="dropdown-thumbnail-preview">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index">Home</a></li>
+		<li><a href="about">About</a></li>
+	
+		<li><a href="gallery">Gallery</a></li>
+		<li><a href="contact">Contact</a></li>
+		<li><a href="details">Details</a></li>
+		<li><a href="services">Services</a></li>
+		
+		<li><a href="../state_auth">Admin</a></li>
+		<li><a href="../cultivo/user">User</a></li>
+
+		<ul class="nav navbar-nav">
+		        	<li class="dropdown dropdown-large">
+				<a href="#" class="hvr-pulse" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+				<ul class="dropdown-menu dropdown-menu-large row">
+                    <div class="col-sm-4">
+                     <div class="header_4">                  
+                       <div class="ih-item square effect14 top_to_bottom"><a href="#">
+                        <div class="img"><img src="../static/img/img.gif" alt="img"></div>
+                        <div class="info">
+                         <h3>Heading here</h3>
+                         <p>dummy text of the printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard dummy  text ever since the when an unknown printer took a galley of type</p>
+                        </div>
+					    </a>
+					   </div>
+                     </div>
+                    </div>			
+					<div class="col-sm-4">
+                     <div class="header_4">                  
+                      <div class="ih-item square effect14 top_to_bottom"><a href="#">
+                        <div class="img"><img src="../static/img/img2.jpg" alt="img"></div>
+                        <div class="info">
+                         <h3>Heading here</h3>
+                         <p>dummy text of the printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard dummy  text ever since the when an unknown printer took a galley of type</p>
+                        </div>
+					    </a>
+					   </div>
+                     </div>
+                    </div>
+					<div class="col-sm-4">
+                     <div class="header_4">                  
+                      <div class="ih-item square effect14 top_to_bottom"><a href="#">
+                        <div class="img"><img src="../static/img/img3.jpg" alt="img"></div>
+                        <div class="info">
+                         <h3>Heading here</h3>
+                         <p>dummy text of the printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard dummy  text ever since the when an unknown printer took a galley of type</p>
+                        </div>
+					    </a>
+					   </div>
+                     </div>
+                    </div>
+				</ul>
+			</li>
+           </ul>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> 
+</section>
+<section id="center" class="center_home">
+<div class="banner">
+		<div id="kb" class="carousel kb_elastic animate_text kb_wrapper" data-ride="carousel" data-interval="6000" data-pause="hover">
+			<!-- Wrapper-for-Slides -->
+            <div class="carousel-inner" role="listbox">  
+                <div class="item active"><!-- First-Slide -->
+                    <img src="../static/img/img15.jpg" class="img-responsive" width="10" height="10">
+                   
+                </div>  
+                <div class="item"> <!-- Second-Slide -->
+                    <img src="../static/img/formar1.jpg" alt="" class="img-responsive">
+                   
+                </div> 
+                <div class="item"><!-- Third-Slide -->
+                    <img src="../static/img/formar.jpg" alt="" class="img-responsive">
+                    
+                </div> 
+				<div class="item"><!-- fourth-Slide -->
+                    <img src="../static/cultivo_main/img26.jpg" alt="" class="img-responsive">
+                    
+                </div> 
+            </div> 
+            <!-- Left-Button -->
+            <a class="left carousel-control kb_control_left" href="#kb" role="button" data-slide="prev">
+				<span class="fa fa-angle-left kb_icons" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a> 
+            <!-- Right-Button -->
+            <a class="right carousel-control kb_control_right" href="#kb" role="button" data-slide="next">
+                <span class="fa fa-angle-right kb_icons" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a> 
+        </div>
+		<script src="js/custom.js"></script>
+	</div>
+</section>
+<section id="middle">
+ <div class="container">
+  <div class="row">
+   <div class="middle_1">
+    <h3>Step into the World of Organics!</h3>
+	<h2><a href="#">Let the first step</a> be firmly anchored!</h2>
+	<p>Organic farming offers an alternative agricultural system.  It initially began in the early in the 20th century.  
+		The advent of<br/> pesticides brought in its benefits and pitfalls simultaneously. 
+		It is more healthy relying on compost manure, green<br/> manure, and bone meal.</p>
+   </div>
+   <div class="middle_2 clearfix">
+    <div class="col-sm-4">
+	 <div class="middle_3">
+	  <a href="#"><img src="{% static 'img/formar1.jpg' %}" alt="abc" class="img_responsive"></a>
+	  <h3>Organic Agriculture</h3>
+	  <p>Lorem ipsum dolor sit amet, consectuerter adipiscing elit diam, sed diam nonummy nibh euismod tincidunt.</p>
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	 <div class="middle_3">
+	  <a href="#"><img src="{% static 'img/img2.jpg' %}" alt="abc" class="img_responsive"></a>
+	  <h3>Increased Biodiversity</h3>
+	  <p>Lorem ipsum dolor sit amet, consectuerter adipiscing elit diam, sed diam nonummy nibh euismod tincidunt.</p>
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	 <div class="middle_3">
+	  <a href="#"><img src="{% static 'img/formar.jpg' %}" alt="abc" class="img_responsive"></a>
+	  <h3>Interdependent Culture</h3>
+	  <p>Lorem ipsum dolor sit amet, consectuerter adipiscing elit diam, sed diam nonummy nibh euismod tincidunt.</p>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="offers">
+ <div class="offers_1 clearfix">
+  <div class="col-sm-6 space_all">
+   <div class="offers_main clearfix">
+	 <div class="offers_2 clearfix">
+       <h3>Special Offers</h3>
+       <h2>GET <a href="#">30%</a> OFF</h2>
+       <p>YOUR ORDER OF $100 OR MORE</p>
+       <div class="offers_3 clearfix">
+		<div class="col-sm-3">
+		 <div class="offers_4">
+		  <h2>240</h2>
+		  <p>Days</p>
+		 </div>
+		</div>
+		<div class="col-sm-3">
+		 <div class="offers_4">
+		  <h2>6</h2>
+		  <p>Hours</p>
+		 </div>
+		</div>
+		<div class="col-sm-3">
+		 <div class="offers_4">
+		  <h2>02</h2>
+		  <p>Minutes</p>
+		 </div>
+		</div>
+
+       </div>	   
+     </div>   
+   </div>
+  </div>
+  <div class="col-sm-6 space_all">
+   <div class="Offers_2">
+    <a href="#"><img src="{% static 'img/img3.jpg' %}" alt="abc" class="img_responsive"></a>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="our">
+ <div class="container">
+  <div class="row">
+   <div class="our_1 clearfix">
+    <div class="col-sm-4">
+	 <div class="our_2">
+	  <a href="https://www.youtube.com/watch?v=Pf9DAvL_MrA"><img src="{% static 'img/img6.jpg' %}" alt="abc" class="img_responsive"></a>
+	  <h3>HEN FARMING</h3>
+	  <p>poultry farming, raising of birds domestically or commercially, primarily for meat and eggs but also for feathers. Chickens, turkeys, ducks, and geese are of primary importance, while guinea fowl 
+		and squabs (young pigeons) are chiefly of local interest. This article treats the principles and practices of poultry farming. For a discussion of the food value and processing of poultry products, see egg and poultry processing.</p>
+	 </div>
+	 <div class="our_3">
+	  <!--<i class="fa fa-tree" style="font-size:36px"></i>-->
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	 <div class="our_2">
+	  <a href="https://www.youtube.com/watch?v=OgklI7NnyKk"><img src="{% static 'img/ing8.jpg' %}" alt="abc" class="img_responsive"></a>
+	  <h3>ORGANIC VEGETABLES</h3>
+	  <p>Organic Food has come a long way since the days when it had a reputation for being grubby, ugly-looking foods only found in the darkest corners of specialty health food stores. 
+		  These days you can purchase organic food almost anywhere. Australian sales of organic foods increase by 30% per year. The health benefits are clear and the public’s choice unanimous – absolutely better for you.
+
+	  </p>
+	 </div>
+	 <div class="our_3">
+	  <!--<i class="fa fa-dribbble"></i>-->
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	 <div class="our_2">
+	  <a href="https://www.youtube.com/watch?v=BFAzx0gPSi0"><img src="{% static 'img/10.jpg' %}" alt="abc" class="img_responsive"></a>
+	  <h3>FARMFRESH EGGS</h3>
+	  <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam porttitor mauris sit amet orci. 
+	     Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare.</p>
+	 </div>
+	 <div class="our_3">
+	  <!--<i class="fa fa-users"></i>-->
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="facts">
+ <div class="container">
+  <div class="row">
+   <div class="facts_3">
+    <h3>All News Around Us</h3>
+	<h2><a href="#">Our</a> Blog</h2>
+   </div>
+   <div class="facts_1 clearfix">
+    <div class="col-sm-4">
+	 <div class="facts_2">
+	  <a href="#"><img src="{% static 'img/formar.jpg' %}" alt="abc" class="img-responsive"></a>
+	  <h3>Gallery With Images</h3>
+	  <ul>
+	       <li class="date">June 7, 2014</li> 
+		   <li>!</li>
+		   <li>INDIA,(TAMILNADU)</li>
+	  </ul>
+	  <p>Over the course of my career, I have had the opportunity to lead various Web design and development teams, including</p>
+	  <a href="#" class="button_1">More</a>
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	 <div class="facts_2">
+	  <a href="#"><img src="{% static 'img/formar1.jpg' %}" alt="abc" class="img-responsive"></a>
+	  <h3>Fullwidth Image Post</h3>
+	  <ul>
+	       <li class="date">June 7, 2014</li> 
+		   <li>!</li>
+		   <li>INDIA,(TAMILNADU)</li>
+	  </ul>
+	  <p>Over the course of my career, I have had the opportunity to lead various Web design and development teams, including</p>
+	  <a href="#" class="button_1">More</a>
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	 <div class="facts_2">
+	  <a href="#"><img src="{% static 'img/img10.jpg' %}" alt="abc" class="img-responsive"></a>
+	  <h3>Beautiful new dress.</h3>
+	  <ul>
+	       <li class="date">June 7, 2014</li> 
+		   <li>!</li>
+		   <li>INDIA,(TAMILNADU)</li>
+	  </ul>
+	  <p>Over the course of my career, I have had the opportunity to lead various Web design and development teams, including</p>
+	  <a href="#" class="button_1">More</a>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="people" class="clearfix">
+ <div class="people_1 clearfix">  
+  <div class="col-sm-6 space_all">
+   <div class="people_main_1 clearfix">
+    <div class="people_4">
+    <h4>Call Back</h4>
+	<h2><a href="#">Donation</a> Request</h2>
+	<p>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore edolore magna aliquyam erat,</p>
+    </div>
+	<div class="people_5 clearfix">
+	 <div class="col-sm-6 space_all">
+	  <div class="people_6">
+	   <input type="text" class="form-control" placeholder="Value">
+	  </div>
+	 </div>
+	 <div class="col-sm-6 space_all">
+	  <div class="people_6">
+	   <input type="text" class="form-control" placeholder="Email">
+	  </div>
+	 </div>
+	</div> 
+	<div class="people_5 clearfix">
+	 <div class="col-sm-6 space_all">
+	  <div class="people_6">
+	   <input type="text" class="form-control" placeholder="Full Name">
+	  </div>
+	 </div>
+	 <div class="col-sm-6 space_all">
+	  <div class="people_6">
+	   <input type="text" class="form-control" placeholder="Phone">
+	  </div>
+	 </div>
+	</div>
+	<div class="people_7 clearfix">
+	  <div class="people_8">
+	   <textarea placeholder="Message" class="form-control"></textarea>
+	  </div>
+	</div>
+	<div class="people_9 clearfix">
+	  <div class="people_10">
+	   <a href="#" class="button_1">READ MORE</a>
+	  </div>
+	</div>
+   </div>   
+  </div>
+  <div class="col-sm-6 space_all">
+   <div class="people_main clearfix">
+    <div class="people_2">
+    <a href="#"><img src="{% static 'img/formar.jpg' %}" alt="abc" class="img_responsive"></a>
+   </div>
+   </div>   
+  </div>
+ </div>
+</section>
+<section id="place">
+ <div class="place_main clearfix">
+  <div class="container">
+   <div class="row">
+    <div class="place_1">
+
+     <h4>Our Volunteers</h4>
+	 <h2>Join Our Team</h2>
+	 <p>Kasd gubergre sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,<br> consetetur sadipscing elitr, sed diam nonumy.</p>
+	 <a href="#" class="button_1">READ MORE</a>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="request">
+	<div class="container">
+		<div class="row">
+		 <div class="request_1 clearfix">
+			<div class="col-sm-3">
+		   <div class="request_2">
+	  <a href="#"><img src="../static/img/img9.jpg" alt="abc" class="img_responsive"></a>
+	 </div>
+	 <div class="request_3">
+	  <h3>Sanjay</h3>
+	  <p>India</p>
+	  <p>Karnataka</p>
+	  <ul>
+	       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="request_2">
+	  <a href="#"><img src="{% static 'img/16.jpg' %}" alt="abc" class="img_responsive"></a>
+	 </div>
+	 <div class="request_3">
+	  <h3>Lorem Ipsum</h3>
+	  <p>cursus</p>
+	  <ul>
+	       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="request_2">
+	  <a href="#"><img src="{% static 'img/17.jpg' %}" alt="abc" class="img_responsive"></a>
+	 </div>
+	 <div class="request_3">
+	  <h3>Integer</h3>
+	  <p>lacinia</p>
+	  <ul>
+	       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="request_2">
+	  <a href="#"><img src="{% static 'img/18.jpg' %}" alt="abc" class="img_responsive"></a>
+	 </div>
+	 <div class="request_3">
+	  <h3>Eget Nulla</h3> 
+	  <p>mauris</p>
+	  <ul>
+	       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	  </ul>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="testimonials">
+ <div class="testimonials_1 clearfix">
+  <div class="col-sm-6 space_all">
+   <div class="testimonials_2">
+	 <a href="#"><img src="{% static 'img/img22.jpg' %}"alt="abc" class="img_responsive"></a> 
+   </div>
+  </div>
+  <div class="col-sm-6 space_all">
+   <div class="testimonials_main clearfix">
+    <div class="testimonials_3">
+	 <h3>What inspires us?</h3>
+	 <h2><a href="#">Smiles are</a> true testimonials!</h2>
+	 <p>Dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy nibh euismod tincidunt ut laoreet dolore volutpat 
+	    naomi delgado conseption guertena delbirkerin suit thelrio samdorano galactico.</p>
+		
+	<p>Dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy nibh euismod tincidunt ut laoreet dolore volutpat 
+	    naomi delgado conseption guertena delbirkerin suit thelrio samdorano galactico.</p>
+   </div>
+   <div class="testimonials_4 clearfix">
+     <div class="col-sm-6 space_all">
+	  <div class="testimonials_5">
+	    <h3><i class="fa fa-medkit"></i>Healthy Produce</h3>
+	    <p>Lorem ipsum dolor sit amet, consectuerter adipiscing elit diam,<br/> 
+		sed diam nonummy nibh euismod</p>
+	  </div>	  
+	 </div>
+	 <div class="col-sm-6 space_all">
+	  <div class="testimonials_5">
+	    <h3><i class="fa fa-clock-o"></i>Garden Fresh Fruits</h3>
+	    <p>Lorem ipsum dolor sit amet, consectuerter adipiscing elit diam,<br/> 
+		sed diam nonummy nibh euismod</p>
+	  </div>	  
+	 </div>
+	</div>
+    <div class="testimonials_4 clearfix">
+     <div class="col-sm-6 space_all">
+	  <div class="testimonials_5">
+	    <h3><i class="fa fa-heart"></i>Biodiversity</h3>
+	    <p>Lorem ipsum dolor sit amet, consectuerter adipiscing elit diam,<br/> 
+		sed diam nonummy nibh euismod</p>
+	  </div>	  
+	 </div>
+	 <div class="col-sm-6 space_all">
+	  <div class="testimonials_5">
+	    <h3><i class="fa fa-pagelines"></i>Soil Enrichment</h3>
+	    <p>Lorem ipsum dolor sit amet, consectuerter adipiscing elit diam,<br/> 
+		sed diam nonummy nibh euismod</p>
+	  </div>	  
+	 </div>
+	</div>
+   </div>   	
+   </div>
+  </div>
+ </div>
+</section>
+<!--<section id="plant">
+ <div class="plant_1 clearfix">
+  <div class="col-sm-6 space_all">
+   <div class="plant_2 clearfix">
+    <div class="col-sm-6 space_all">
+	 <div class="plant_3">
+	  <a href="#"><img src="{% static 'img/24.jpg' %}" alt="abc" class="img_responsive"></a>
+	 </div>
+	</div>
+	<div class="col-sm-6 space_all">
+	 <div class="plant_3">
+	  <a href="#"><img src="{% static 'img/25.jpg' %}" alt="abc" class="img_responsive"></a>
+	 </div>
+	</div>
+   </div>
+   <div class="plant_2 clearfix">
+    <div class="col-sm-6 space_all">
+	 <div class="plant_3">
+	  <a href="#"><img src="{% static 'img/26.jpg' %}" alt="abc" class="img_responsive"></a>
+	 </div>
+	</div>
+	<div class="col-sm-6 space_all">
+	 <div class="plant_3">
+	  <a href="#"><img src="{% static 'img/27.jpg' %}" alt="abc" class="img_responsive"></a>
+	 </div>
+	</div>
+   </div>
+  </div>
+  <div class="col-sm-6 space_all">
+   <div class="plant_4 clearfix">
+    <div class="col-sm-8 space_all">
+	 <div class="plant_5">
+	  <a href="#"><img src="{% static 'img/28.jpg' %}" alt="abc" class="img_responsive"></a>
+	 </div>
+	</div>
+	<div class="col-sm-4 space_all">
+	 <div class="plant_5">
+	  <a href="#"><img src="{% static 'img/29.jpg' %}" alt="abc" class="img_responsive"></a>
+	 </div>
+	 <div class="plant_5">
+	  <a href="#"><img src="{% static 'img/30.jpg' %}" alt="abc" class="img_responsive"></a>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>-->
+<section id="footer">
+ <div class="footer_inner clearfix">
+   <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+    <div class="col-sm-3">
+	 <div class="footer_1">
+	  <h3>AGRICULTURAL</h3>
+	  <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum..Praesent mauris. Fusce nec tellus</p>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_2">
+	  <h3>MAURIS MASSA</h3>
+	  <ul>
+	      <li><i class="fa fa-map-marker"></i> karnataka, INDIA</li>
+		  <li><i class="fa fa-phone"></i> Phone: (+91) 9110645105,</li>
+		  <li><i class="fa fa-envelope"></i> <a href="#">sanjay@organicfarming.com.</a></li><br>
+		  <p><input type="text" class="form-control" placeholder="Enter Your Command"></p>
+	
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_3">
+	  <h3>SEMPER PORTA</h3>
+
+	  <ul>
+           <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li> 
+           <li><a href="#"><i class="fa fa-google-plus"></i></a></li> 
+           <li><a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram"></i></a></li> 
+
+	  </ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_2">
+	  <h3>VESTIBULUM</h3>
+	 </div>
+	 <div class="footer_4">
+	  <p>Enter your email and we’ll send you latest..</p>
+	 </div>
+	 <div class="footer_3"><br>
+	  <p><input type="text" class="form-control" placeholder="Your Email Address"></p>
+	  <a href="user" class="button">SIGN UP</a>
+	  
+	 </div>	 
+	</div>
+   </div>
+  </div>
+ </div>
+ </div>
+</section>
+<section id="footer_main" class="clearfix">
+ <div class="col-sm-12">
+   <div class="footer_main_1">
+   <marquee> <p>© 2022 Design by SANJAYA T M<a href="https://www.google.com/search?q=techciti+technologies+private+limited+owner+name&rlz=1C1UEAD_enIN993IN993&oq=techciti&aqs=chrome.1.69i57j35i39j46i175i199i512l2j0i512l4j0i10i512j0i512.5138j0j7&sourceid=chrome&ie=UTF-8"> Teach By Techciti Technologies(Ms.K.KASTHURI)</a></p></marquee>
+   </div>
+ </div>
+</section>
+<script>
+$(document).ready(function(){
+	/*****Fixed Menu******/
+	var secondaryNav = $('.cd-secondary-nav'),
+	   secondaryNavTopPosition = secondaryNav.offset().top;
+		$(window).on('scroll', function(){
+			if($(window).scrollTop() > secondaryNavTopPosition ) {
+				secondaryNav.addClass('is-fixed');	
+			} else {
+				secondaryNav.removeClass('is-fixed');
+			}
+		});	
+});
+	</script>
+</body>
+
+	
+	
+	
+	
+

@@ -1,0 +1,55 @@
+{% extends 'cultivo_main/style.html' %}
+
+{% block content %}
+{% load static %}
+
+
+<body>
+<main>
+  <div class="login-wrap" style="height:500px;">
+    <div class="login-html">
+        <form id="form"  action="crop" method='post'>
+        {% csrf_token %}
+        <div class="login-form">
+            <div class="sign-in-htm">
+                <div class="group">
+                    <label for="nitrogen" class="label">Nitrognen <span style="font-size: 12px;">(Soil)</span></label>
+                     <input type="text" placeholder="Nitrogen" class="input" name="N" required>
+                </div>
+                <div class="group">
+                    <label for="phosporous" class="label">Phosporous </label>
+                     <input type="text" placeholder="Phosphorous" class="input" name="P" required>
+                </div>
+                <div class="group">
+                    <label for="potassium" class="label">Potassium </label>
+                     <input type="text" placeholder="Potassium" class="input" name="K" required>
+                </div>
+                <div class="group">
+                    <label for="temp" class="label">Temperature </label>
+                     <input type="text" placeholder="Temperature" class="input" name="temp" required>
+                </div>
+                <div class="group">
+                    <label for="humid" class="label">Humidity </label>
+                     <input type="text" placeholder="Humidity" class="input" name="humid" required>
+                </div>
+                <div class="group">
+                    <label for="ph" class="label">pH</label>
+                     <input type="text" placeholder="pH" class="input" name="pH" required>
+                </div>
+                <div class="group">
+                    <label for="rainfall" class="label">Rainfall </label>
+                     <input type="text" placeholder="Rainfall" class="input" name="rainfall" required>
+                </div>
+                <div class="group">
+
+                     <input type="submit" value="Submit" required>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+  </div>
+</main>
+</body>
+{% endblock %}
+
